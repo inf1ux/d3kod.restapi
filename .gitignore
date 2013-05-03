@@ -1,8 +1,7 @@
 *.py[cod]
 *.pyc
 *.pyo
-*~
-*.swp
+*.~
 .DS_Store
 .long_description.html
 

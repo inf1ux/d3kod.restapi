@@ -2,7 +2,6 @@ from setuptools import setup, find_packages
 import os
 
 version = '0.1'
-tests_require = ['collective.testcaselayer']
 
 setup(name='d3kod.restapi',
       version=version,
@@ -28,8 +27,6 @@ setup(name='d3kod.restapi',
           'setuptools',
           # -*- Extra requirements: -*-
       ],
-      tests_require=tests_require,
-      extras_require={'tests': tests_require},
       entry_points="""
       # -*- Entry points: -*-
 
